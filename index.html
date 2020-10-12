@@ -22,7 +22,7 @@
     <!-- HEADER -->
     <header>
         <nav>
-            <div class="container">
+            <div class="container nav-container">
                 <h3 class="logo">Dom<span> Patino</span></h3>
                 <div class="hamburger-menu">
                     <div class="bar"></div>
@@ -40,110 +40,199 @@
         <img src="assets/img/mountain3.png" class="mountain3 translate" data-speed="0.3" alt="">
         <img src="assets/img/sky.png" class="sky translate" data-speed="0.5" alt="">
     </header>
-
-    <!-- MAIN CONTENT -->
-    <section>
-        <div class="shadow"></div>
-
-        <!-- ABOUT SECTION -->
-        <div class="container">
-            <div class="content opacity" data-aos="fade-up" data-aos-offset="200">
-                <h3 class="title">
-                    About
-                </h3>
-                <p class="text">Hi, I'm Dom Patino and I build websites and applications. I have a solid education in Software Development, a background in Information Technology Support and a ton of practice. My focus is to build functional and intuitive websites with beautiful User Interfaces.</p>
-                <div class="tool-set">
-                  <ul >
-                    <li><i class="fab fa-html5"></i></li>
-                    <li><i class="fab fa-css3-alt"></i></li>
-                    <li><i class="fab fa-js-square"></i></li>
-                    <li><i class="fab fa-sass"></i></li>
-                    <li><img src="https://img.icons8.com/windows/64/000000/c-sharp-logo.png"/></li>
-                    <li><img src="https://img.icons8.com/windows/64/000000/c-plus-plus.png"/></li>
-                  </ul>
-                </div>
-            </div>
+    
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="shadow"></div>
+      <div class="container about-container">
+        <div class="content opacity" data-aos="fade-up" data-aos-offset="200">
+          <div class="about-column">
+            <h3 class="title"> About </h3>
+            <p class="text">Hi, I'm Dom Patino and I build websites and applications. I have a solid education in Software
+              Development, a background in Information Technology Support and a ton of practice. My focus is to build
+              functional and intuitive websites with beautiful User Interfaces.</p>
+          </div>
         </div>
+        <div class="tool-set">
+          <ul data-aos="fade-in">
+            <li><i class="fab fa-html5"></i></li>
+            <li><i class="fab fa-css3-alt"></i></li>
+            <li><i class="fab fa-js-square"></i></li>
+            <li><i class="fab fa-sass"></i></li>
+            <li><i class="fab fa-bootstrap"></i></li>
+          </ul>
+          <ul>
+            <li><a href="https://www.freeiconspng.com/img/28389" title="Image from freeiconspng.com"><img
+                  src="https://www.freeiconspng.com/uploads/c--logo-icon-0.png" width="64px" alt="c++ logo image" /></a>
+            </li>
+            <li><a href="https://www.freeiconspng.com/img/28402" title="Image from freeiconspng.com"><img
+                  src="https://www.freeiconspng.com/uploads/c-logo-icon-18.png" width="64px" alt="c# logo image" /></a>
+            </li>
+            <li><a href="https://www.freeiconspng.com/img/38988" title="Image from freeiconspng.com"><img src="https://www.freeiconspng.com/uploads/git-github-hub-icon-25.png" width="64" alt="Git, github, hub icon" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section>
-        <div class="shadow"></div>
-
-        <!-- PROJECTS SECTION -->
-        <div class="container">
-            <div class="content opacity" data-aos="fade-up" data-aos-offset="40">
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <div class="shadow"></div>
+        <div class="container project-container">
+            <div class="content" data-aos="fade-up" data-aos-offset="40">
                 <h3 class="title">
                     Projects
                 </h3>
-                <div class="card-list">
-                    <div class="card col-4">
-                        <img class="card-img-top" src="..." alt="card image cap">
+                <div class="card-list grid">
+                    <div class="card column" data-aos="fade-left" data-aos-offset="300" data-aos-delay="100">
+                        <img class="card-img-top" src="assets/img/athleticwebsite.PNG" alt="card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Fitness Website</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <button class="btn btn-primary"><a href="https://dpatino07.github.io/ParallaxSite-master/dist/">Demo</a></button>
-                          <button class="btn btn-primary"><a href="https://github.com/dpatino07/ParallaxSite-master">Source Code</a></button>
+                          <p class="card-text">A responsive fitness website with parallax effects and built with HTML5, SCSS, JavaScript Libraries and Animate On Scroll.</p>
+                          <div>
+                          <button class="btn"><a href="https://dpatino07.github.io/ParallaxSite-master/dist/">Demo</a></button>
+                          <button class="btn"><a href="https://github.com/dpatino07/ParallaxSite-master">Source Code</a></button>
+                        </div>
                         </div>
                       </div>
-                    <div class="card col-4">
-                        <img class="card-img-top" src="..." alt="card image cap">
+                      <div class="card column" data-aos="fade-left" data-aos-offset="300" data-aos-delay="100">
+                        <img class="card-img-top" src="assets/img/lolgallery.PNG" alt="card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">League of Legends Gallery</h5>
+                          <p class="card-text">A league of legends champion gallery built with HTML, CSS, JavaScript, jQuery and Lightbox. This site features filtering and shadow overlay to reveal champion information.</p>
+                          <div>
+                          <button class="btn"><a href="https://dpatino07.github.io/LoLGallery/">Demo</a></button>
+                          <button class="btn"><a href="https://github.com/dpatino07/LoLGallery">Source Code</a></button>
+                        </div>
+                      </div>
+                      </div>
+                    <div class="card column" data-aos="fade-left" data-aos-offset="300" data-aos-delay="100">
+                        <img class="card-img-top" src="assets/img/searchvidz.png" alt="card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">SearchVidz</h5>
+                          <p class="card-text">A website featuring login page with a slider to reveal a YouTube Video search form. </p>
+                          <div>
+                          <button class="btn"><a href="https://dpatino07.github.io/SearchVidz/">Demo</a></button>
+                          <button class="btn"><a href="https://github.com/dpatino07/SearchVidz">Source Code</a></button>
+                        </div>
+                      </div>
+                      </div>
+                    <div class="card column" data-aos="fade-left" data-aos-offset="300" data-aos-delay="100">
+                        <img class="card-img-top" src="assets/img/recipeapp.png" alt="card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Recipe App</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <button class="btn btn-primary"><a href="https://dpatino07.github.io/RecipeApp/">Demo</a></button>
-                          <button class="btn btn-primary"><a href="https://github.com/dpatino07/RecipeApp.git">Source Code</a></button>
+                          <p class="card-text">A web application built with HTML5, SASS, and JavaScript, designed for mobile. The app utilizes recipe API's from www.themealdb.com with a featured random recipe section that can be clicked to add to a favorites section.</p>
+                          <div>
+                          <button class="btn"><a href="https://dpatino07.github.io/RecipeApp/">Demo</a></button>
+                          <button class="btn"><a href="https://github.com/dpatino07/RecipeApp.git">Source Code</a></button>
                         </div>
                       </div>
-                    <div class="card col-4">
-                        <img class="card-img-top" src="..." alt="card image cap">
+                      </div>
+                    <div class="card column" data-aos="fade-left" data-aos-offset="300" data-aos-delay="100">
+                        <img class="card-img-top" src="assets/img/inventoryapp.PNG" alt="card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Inventory App</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <button class="btn btn-primary"><a href="https://github.com/dpatino07/InventoryManagementSystem">Source Code</a></button>
+                          <div>
+                          <button class="btn"><a href="https://github.com/dpatino07/InventoryManagementSystem">Source Code</a></button>
                         </div>
                       </div>
-                    <div class="card col-4">
-                        <img class="card-img-top" src="..." alt="card image cap">
+                      </div>
+                    <div class="card column" data-aos="fade-left" data-aos-offset="300" data-aos-delay="100">
+                        <img class="card-img-top" src="assets/img/schedulerapp.PNG" alt="card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Scheduling App</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <button class="btn btn-primary"><a href="https://dpatino07.github.io/ParallaxSite-master/dist/">Demo</a></button>
-                          <button class="btn btn-primary"><a href="https://github.com/dpatino07/ParallaxSite-master">Source Code</a></button>
+                          <div>
+                          <button class="btn"><a href="https://github.com/dpatino07/Software2Project-Scheduling-Application">Source Code</a></button>
                         </div>
                       </div>
-                    <div class="card col-4">
-                        <img class="card-img-top" src="..." alt="card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Student Roster Program</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <button class="btn btn-primary"><a href="https://github.com/dpatino07/Student-Roster-Program">Source Code</a></button>
-                        </div>
                       </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
-      <!-- CONTACT SECTION -->
-        <div class="container">
-            <div class="content opacity" data-aos="fade-up" data-aos-offset="200">
-                <h3 class="title">
-                    Contact
-                    <div class="border"></div>
-                </h3>
-                <form>
-                    <div class="row">
-                      <div class="col">
-                        <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
-                      </div>
-                      <div class="col">
-                        <input type="password" class="form-control" placeholder="Enter password" name="pswd">
-                      </div>
-                    </div>
-                  </form>
-            </div>
+    <!-- WORK EXPERIENCE -->
+    <!--
+    <section id="experience">
+        <div class="container experience-container">
+          <div class="content" data-aos="fade-up" data-aos-offset="40">
+          <h3 class="title">Work Experience</h3>
+          <div class="all-jobs">
+            <ul class="job-list">
+              <li class="job">Level 1 IT Support Technician <p class="comp-info">Sonic Systems, Inc.</p>
+                <p class="year">Jan 27, 2020 - Present</p>
+                <ul class="job-desc">
+                  <li>Used remote technologies to provide support to various managed workstations and devices</li>
+                  <li>Worked in a fast-paced environment and utilized various resources to provide top-level technical
+                    support</li>
+                  <li>Researched up-to-date technologies and solutions to meet customer needs</li>
+                  <li>Used ticketing systems to manage, document, and process actions taken</li>
+                  <li>Managed call flow and responded to technical support needs of clients</li>
+                  <li>Identified, diagnosed, and resolved technical issues with various diagnostic tools.</li>
+                  <li>Install and configure networking equipment</li>
+                  <li>Followed up with clients to ensure a high level of customer satisfaction</li>
+                </ul>
+              </li>
+              <li class="job">Client Experience Manager <p class="comp-info">In-Shape Health Clubs</p>
+                <p class="year">Oct 15, 2019 - Jan 27, 2020</p>
+                <ul class="job-desc">
+                  <li>Built, coached, and led teams of Personal Trainers to uphold and exceed company standars</li>
+                  <li>Bridged the gap between sales, fitness, management, kid's club and receptionist departments and
+                    serving as a main contact for anything fitness</li>
+                  <li>Read and understood company reports daily to plan a positive and successful growth in the company from
+                    the fitness department</li>
+                  <li>Created and attended regular zoom meetings with other management and staff to continually stay the
+                    course with the vision of the company</li>
+                  <li>Received a promotion within three months to CEM for long-term track record of proven results, strong
+                    leadership skills and encompassing company culture</li>
+                </ul>
+              </li>
+              <li class="job">Sr. Personal Trainer <p class="comp-info">In-Shape Health Clubs</p>
+                <p class="year">July 1, 2019 - Oct 15, 2019</p>
+                <ul class="job-desc">
+                  <li>Held a customer-oriented, professional approach to business operations and created a unique,
+                    welcoming, engaging, and motivating experience for members</li>
+                  <li>Trained, educated and led-by-example personal training team to improve the quality of service provided
+                    by the team</li>
+                  <li>Took and certified in specialized courses to ensure fitness knowledge is up-to-date and up to modern
+                    day standars</li>
+                  <li>Demonstrated correct movement to clients and trainers and explained why they're beneficial</li>
+                  <li>Promoted to Sr. Personal Trainer for tenure, completing extensive advanced level training
+                    certifications, and coaching the personal training team to exceed production as a unit</li>
+                </ul>
+              </li>
+              <li class="job">Fitness Advisor / Personal Trainer <p class="comp-info">In-Shape Health Clubs</p>
+                <p class="year">June 16, 2014 - July 1, 2019</p>
+                <ul class="job-desc">
+                  <li>Designed personalized workout and nutrition programs over short and long-term to maximize success
+                    longevity</li>
+                  <li>Advised clients and members of programs and special pricing that meet specific needs of clients</li>
+                  <li>Regularly check in with clients to ensure they are meeting their goals and consistently progressing
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
+    </section>
+  -->
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <div class="flex">
+        <div class="content" data-aos="fade-up" data-aos-offset="300">
+          <h3 class="title">Contact</h3>
+          <form action="contact-form.php" id="contact-form" method="POST">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="email" placeholder="Enter email" name="email" required>
+            <textarea name="message" placeholder="Your message here" type="text" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" id="submit" value="SUBMIT">
+          </form>
+        </div>
+      </div>
     </section>
 
     <!-- AOS JS -->

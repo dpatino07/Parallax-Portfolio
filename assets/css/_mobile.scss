@@ -1,0 +1,39 @@
+/* RESPONSIVE STYLING */
+
+// MEDIUM
+@media only screen and (max-width: 768px) {
+    .content {
+        flex: 50%;
+        max-width: 100%;
+    }
+
+    .about-content {
+        flex: 50%;
+        max-width: 100%;
+    }
+}
+
+// SMALL 
+@media only screen and (max-width: 600px) {
+    .big-title{
+        font-size: 3rem
+    }
+
+    .text{
+        font-size: .8rem;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+
+    .content {
+        flex: 100%;
+        min-width: 100%;
+    }
+
+    .about-content {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
